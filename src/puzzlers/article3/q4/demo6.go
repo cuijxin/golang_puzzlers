@@ -7,7 +7,7 @@ package main
 
 import (
 	"flag"
-	in "golang-puzzlers/src/puzzlers/article3/q4/lib/internal" // 此行无法通过编译。
+	lib "golang-puzzlers/src/puzzlers/article3/q4/flag"
 )
 
 var name string
@@ -19,5 +19,5 @@ func init() {
 func main() {
 	flag.Parse()
 	// lib.Hello(name)
-	in.Hello(name)
+	lib.Hello(name)
 }

@@ -1,8 +1,8 @@
 package lib
 
 import (
+	in "golang-puzzlers/src/puzzlers/article3/q4/flag/internal"
 	"os"
-	in "golang-puzzlers/src/puzzlers/article3/q4/lib/internal"
 )
 
 func Hello(name string) {
